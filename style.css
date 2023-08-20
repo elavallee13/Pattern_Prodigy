@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+body {
+    font-family: 'montserrat', sans-serif;
+    background: #090a1d;
+    color: #fff;
+    line-height: 1.4;
+    padding: 1rem 5%;
+}
+
+header {
+    font-size: 1.6rem;
+
+;
+
+}
+h3:hover {
+    color: #1dd1a1;
+    width: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+
+section:target {
+    border: 3px solid #1dd1a1;
+    padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #1dd1a1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* h2 color and hover feature*/
+h2 {
+    font-size: 2rem;
+    color: white;
+    border-bottom: 2px solid #1dd1a1;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* changes color when hovered */
+h2:hover {
+    color: #1dd1a1;
+    width: auto;
+}
+
+/* h3 hover feature*/
+h3 {
+    font-size: 1.6rem;
+}
+h3:hover {
+    color: #1dd1a1;
+    width: auto;
+}
+
+
+/* Boarder color boxes */
+article {
+    background: #14162b;
+    border: 3px solid #1dd1a1;
+    padding: 1rem;
+    flex: 1;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 5px 5px #1dd1a1;
+}
+
+/* box-shadow effect */
+    
+article:hover {
+    box-shadow: 10px 5px 5px #ffffff; /* Darker shadow on hover */
+}
+
+
+p,
+ul {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+li:before {
+    content: '→';
+    position: absolute;
+    left: -1.5rem;
+    color: #1dd1a1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1dd1a1;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background: #06090f;
+    padding: 1rem 5%;
+    text-align: center;
+    margin-top: 3rem;
+    height: small;
+}
+
+footer a {
+    color: #1dd1a1;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Media Query for Adjustments for Small Screens */
+@media screen and (max-width: 768px) {
+    nav a {
+        margin-left: 0;
+    }
+}

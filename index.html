@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pattern_Prodigy: Regex Mastery</title>
+</head>
+
+<body>
+
+    <h1>
+        <a= href="#" class="btn">Pattern Prodigy</a>
+    </h1>
+
+    <h4><a>An In-depth Guide to Regular Expressions</a></h4>
+    <h3><a href="#intro" class="btn"></a><a>Table of Contents</a></h3>
+
+    <header>
+
+        <nav>
+            <div>
+                <ul>
+
+                    <li><a href="#anchors">Anchors</a></li>
+                    <li><a href="#quantifiers">Quantifiers</a></li>
+                    <li><a href="#grouping-constructs">Grouping Constructs</a></li>
+                    <li><a href="#bracket-expressions">Bracket Expressions</a></li>
+                    <li><a href="#character-classes">Character Classes</a></li>
+                    <li><a href="#the-or-operator">The OR Operator</a></li>
+                    <li><a href="#flags">Flags</a></li>
+                    <li><a href="#character-escapes">Character Escapes</a></li>
+                    <li><a href="#author">Author</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <section class="intro">
+            <h2>Introduction</h2>
+            <p>Hello fellow coders! In our ever-evolving journey through the coding realm, I stumbled upon a
+                mysterious yet powerful tool we've all likely encountered: regular expressions, or regex. These
+                sequences, often looking more like runes than code, hold immense power in pattern searching and
+                string manipulation. Let's dive deep into a specific regex pattern meant for email validation.
+            </p>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>In this tutorial, I'll be unpacking the regex pattern: <br>
+                <code>^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})*$</code> <br>
+                This is a robust tool used to verify if a string conforms to the common format of an email
+                address.
+            </p>
+        </section>
+
+        <section class="regex-components">
+            <h2>Regex Components</h2>
+        </section>
+
+
+        <article id="anchors">
+            <h3>Anchors</h3>
+            <p>Anchors dictate the pattern's position concerning a line. In our regex:</p>
+            <ul>
+                <li><code> ^ </code>: Asserts the start of a line.</li>
+                <li><code> $ </code>: Asserts the end of a line.</li>
+            </ul>
+        </article>
+
+        <article id="quantifiers">
+            <h3>Quantifiers</h3>
+            <p>Quantifiers determine how frequently an element can manifest.</p>
+            <ul>
+                <li><code> + </code>: Denotes one or more of the preceding element.</li>
+                <li><code> * </code>: Specifies zero or more of the preceding item.</li>
+                <li>Example not in our main regex: <code>{n,m}</code> - Matches the previous item at least n
+                    times, but no more than m times.</li>
+            </ul>
+        </article>
+
+        <article id="grouping-constructs">
+            <h3>Grouping Constructs</h3>
+            <p>They amalgamate regex elements into a singular unit:</p>
+            <ul>
+                <li><code> () </code>: Anything encased within these is deemed a unique group.</li>
+            </ul>
+        </article>
+
+        <article id="bracket-expressions">
+            <h3>Bracket Expressions</h3>
+            <p>These constructs define a set of characters, of which only one needs a match.</p>
+            <ul>
+                <li><code>[a-zA-Z0-9._%-]</code> and <code>[a-zA-Z0-9.-]</code> are bracket expressions in
+                    our
+                    regex.</li>
+            </ul>
+        </article>
+
+        <article id="character-classes">
+            <h3>Character Classes</h3>
+            <p>Character classes and their definitions:</p>
+            <ul>
+                <li><code> \d </code>: Matches any digit (0-9).</li>
+                <li>Example: The regex <code>\d{3}-\d{2}-\d{4}</code> can match social security numbers like
+                    "123-45-6789."</li>
+            </ul>
+        </article>
+
+        <article id="the-or-operator">
+            <h3>The OR Operator</h3>
+            <p>The OR operator (<code> | </code>) is an indispensable tool for cases where you want a match
+                with
+                one pattern or another.</p>
+            <ul>
+                <li>Example: The regex <code>cat | dog</code> would match either "cat" or "dog".</li>
+            </ul>
+        </article>
+
+        <article id="flags">
+            <h3>Flags</h3>
+            <p>Flags govern the broader regex search.</p>
+            <ul>
+                <li>Example: The regex <code>/pattern/ig</code> would search for the "pattern" globally
+                    (<code>g</code> flag) and is case-insensitive (<code>i</code> flag).</li>
+            </ul>
+        </article>
+
+        <article id="character-escapes">
+            <h3>Character Escapes</h3>
+            <p>To match reserved characters literally, we deploy a backslash <code>\</code>.</p>
+            <ul>
+                <li><code> \. </code>: This matches a literal dot, not just any character.</li>
+                <li>Example: <code> \$ </code> would match a literal dollar sign.</li>
+            </ul>
+        </article>
+        </section>
+
+        <section>
+        <article id="author">
+            <h2>Author</h2>
+            <p>Written by Eric Lavallee, an enthusiastic coding student continually seeking to unravel the
+                nuances of programming.
+                <br>
+                <br>
+                Dive into my coding adventures on <a href="https://github.com/elavallee13" target="_blank">GitHub!</a>
+            </p>
+        </article>
+        </section>
+    </main>
+    </div>
+
+    <footer>
+    <article>
+        <p>&copy; 2023 Eric Lavallee. All Rights Reserved.</p>
+    </article>
+    </footer>
+</body>
+
+</html>
