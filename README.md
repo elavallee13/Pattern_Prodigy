@@ -1,7 +1,7 @@
 Pattern_Prodigy
 
 ## Description
-In the ever-evolving world of programming, understanding intricate details can be a challenge. One such intricate detail, regularly causing confusion among newcomers and seasoned developers alike, is Regular Expressions (or regex). This project, "Regex Unraveled", is an in-depth tutorial aiming to demystify the components of regex. We will delve into its constructs, exploring how each part functions. By the end of this tutorial, readers will gain a solid foundation in regex, enabling them to harness its power efficiently.
+In the ever-evolving world of programming, understanding intricate details can be a challenge. One such intricate detail, regularly causing confusion among newcomers and seasoned developers alike, is Regular Expressions (or regex). This project, "Pattern Prodigy", is an in-depth breakdown aiming to demystify the components of regex. We will delve into its constructs, exploring how each part functions. By the end of this tutorial, readers will gain a solid foundation in regex, enabling them to harness its power efficiently.
 
 ## Installation
 
@@ -17,9 +17,7 @@ To effectively utilize this tutorial:
 1. Start with the introductory section to understand the foundation of regex.
 2. Progress through each component in the Table of Contents for a structured understanding.
 3. Use the examples provided as a reference to test out your regex patterns.
-4. (Optional) For an enhanced experience, you can follow along using an online regex tester tool.
 
-> **Tip**: Screenshots provided in each section will further aid in visualizing the concepts.
 
 ## Credits and Attribution
 
